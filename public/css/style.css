@@ -1,0 +1,37 @@
+body {
+    min-width: 600px;
+    margin-top: 100px;
+}
+
+header {
+    background-color: white;
+    border-bottom: 1px solid black;
+    box-shadow: 0 2px 3px grey;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-height: 100px;
+    z-index: 10;
+}
+
+.container .answers{
+    background-color: rgba(0,0,0,0.03);
+}
+
+footer {
+    font-size: 10px;
+    height:15px;
+    background-color: darkgrey;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+@media(max-width: 700px) {
+    header h1{
+        font-size: 45px !important;
+    }
+}
